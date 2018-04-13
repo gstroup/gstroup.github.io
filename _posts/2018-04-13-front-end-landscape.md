@@ -114,6 +114,8 @@ Many people today use mobile devices to interact with internet applications.  Th
   * [React Native](https://facebook.github.io/react-native/)
 
 ### References
-* https://frontendmasters.com/books/front-end-handbook/2017/
-* https://www.predix.io/resources/tutorials/tutorial-details.html?tutorial_id=2101
+* [https://frontendmasters.com/books/front-end-handbook/2017/](https://frontendmasters.com/books/front-end-handbook/2017/)
+* [https://www.predix.io/resources/tutorials/tutorial-details.html?tutorial_id=2101](https://www.predix.io/resources/tutorials/tutorial-details.html?tutorial_id=2101)
 
+### Acknowledgements
+Thanks to Henry Navarro for creating the diagram.
