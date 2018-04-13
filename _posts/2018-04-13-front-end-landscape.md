@@ -21,6 +21,8 @@ Before diving into specifics, it's important to understand the basic building bl
   * [Related languages](https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js) Many languages have been created to compile to JavaScript.  The goal is to increase developer productivity, and produce code that can be run everywhere JS is supported.  Typescript from Microsoft is one popular example.
 * [REST](https://restfulapi.net/) REpresentational State Transfer is an architectural pattern for distributed systems.  Although not strictly defined as part of the pattern, REST usually implies JSON over HTTP.
 
+![Images](images/front-end-diagram.png)
+
 ## Web Application Essentials
 ### Browser Layer
 The bulk of a front end application is user interface code, which runs in the web browser.  As browsers have become more powerful, this area has expanded and grown in complexity.  These concepts and building blocks can be used to build a modern front end application.
