@@ -2,7 +2,7 @@
 title: Front End Development Landscape
 ---
 
-Over the years, I've helped lots of developers build web applications.  Many of these developers are not actually "web" developers.  They're Java developers building services, data scientists writing algorithms, or mechanical engineers that just want to see their data on a web app.  This post covers a wide variety of front end development concepts intended to make these non-web developers comfortable and productive.
+Over the last few years, I've helped lots of developers build web applications on various platforms including GE's Predix.  Many of these developers are not actually "web" developers.  They're Java developers building services, data scientists writing algorithms, or mechanical engineers that just want to see their data on a web app.  This post covers a wide variety of front end development concepts intended to make these folks comfortable and productive.
 
 ## Basic Technology
 Before diving into specifics, it's important to understand the basic building blocks of the web.
@@ -31,7 +31,7 @@ The bulk of a front end application is user interface code, which runs in the we
     * URL routing - Respond to changes in the browser address bar.  Instead of loading a new file as in traditional multi-page web sites, different action can be taken such as making an API call, or loading a UI component onto the page.
     * Data binding - Display data from the model in the UI view.  Two-way data binding means that user changes to data in the UI are also persisted to the model.
     * State management - Store and retrieve UI state from various UI components.
-    * Templates - Layout templates with placeholders for model data.  [Handlebars](http://handlebarsjs.com/) is one example
+    * Templates - Layout templates with placeholders for model data.  [Handlebars](http://handlebarsjs.com/) is one example.
     * Event handling - Provide consistent way to handle events from user interaction or back end service responses.
     * CLI - Many frameworks provide a command line interface to help developers.  These can provide project scaffolding, build tooling, local development server, and more.
     * API calls - Provide a standard method for calling services and handling responses.
@@ -69,7 +69,7 @@ No front end application can function without a server to provide source files t
 ## Development Tools & Concepts
 The wide array of tools for front end development can seem overwhelming.  Understanding the major development tasks and concepts helps simplify the situation.
 * [Node.js](https://nodejs.org/en/) is a JavaScript runtime that supports the majority of front end dev tools.  Node.js can run on hosted servers to support web applications or APIS.  And developers use node on laptops to run a wide variety of dev tools.  Since front end devs are familiar with JS, they're comfortable running JS locally to run dev tools and build new tools.
-* Package Managers are used in most modern programming languages.  (Maven, Pip, Gem, etc.)  Most front end applications use these tools
+* Package Managers are used in most modern programming languages.  (Maven, Pip, Gem, etc.)  Most front end applications use these tools:
   * NPM - the Node Package Manager is the most popular package manager for front end work.  NPM is used to install most of the dev tools listed here, web servers and server packages, and sometimes front end packages from a global package registry.
   * [Bower](https://bower.io/) is used to install browser code into the application under construction.  It was created by Twitter, and was quite popular, but it has now been deprecated.
   * [Yarn](https://yarnpkg.com) is a newer package manager which installs packages from the npm registry, and provides benefits such as improved speed and deterministic installs.
