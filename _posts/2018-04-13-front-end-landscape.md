@@ -1,6 +1,4 @@
 ---
-layout: post
-theme: jekyll-theme-cayman
 title: Front End Development Landscape
 ---
 
