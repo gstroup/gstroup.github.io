@@ -1,4 +1,5 @@
 theme: jekyll-theme-cayman
-title: Writing About Code
+title: Occasional Thoughts
 
+# this is needed to make the theme work on posts
 baseurl: "/"
