@@ -3,7 +3,7 @@ title: Front End Development Landscape
 ---
 
 # Front End Development Landscape
-*{{post.date}}*
+*{{page.date}}*
 
 Over the last few years, I've helped lots of developers build web applications on various platforms including GE's Predix.  Many of these developers are not actually "web" developers.  They're Java developers building services, data scientists writing algorithms, or mechanical engineers that just want to see their data on a web app.  This post covers a wide variety of front end development concepts intended to make these folks comfortable and productive.
 
